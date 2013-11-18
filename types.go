@@ -33,7 +33,7 @@ type xmppThread struct {
 }
 
 type xmppError struct {
-	Info xml.Name  `xml:",any"`
+	Info xml.Name  `xml:",any"` // possible element names: see stanzaErrorGroup
 	Text *xmppText `xml:"text"`
 	By   string    `xml:"by,attr,omitempty"`
 	Type string    `xml:"type,attr"` // auth, cancel, continue, modify, wait
@@ -52,14 +52,14 @@ type streamFeatures struct {
 
 type streamError struct {
 	XMLName xml.Name  `xml:"http://etherx.jabber.org/streams error"`
-	Info    *xml.Name `xml:",any"`
+	Info    *xml.Name `xml:",any"` // possible element names: see streamErrorGroup
 	Text    *xmppText `xml:"text"`
 }
 
 // RFC 6120  A.3  STARTTLS namespace
 
 type tlsStartTLS struct {
-	XMLName  xml.Name `xml:":ietf:params:xml:ns:xmpp-tls starttls"`
+	XMLName  xml.Name `xml:"urn:ietf:params:xml:ns:xmpp-tls starttls"`
 	Required bool     `xml:"required,omitempty"`
 }
 
@@ -105,7 +105,7 @@ type saslSuccess struct {
 
 type saslFailure struct {
 	XMLName xml.Name  `xml:"urn:ietf:params:xml:ns:xmpp-sasl failure"`
-	Info    *xml.Name `xml:",any"`
+	Info    *xml.Name `xml:",any"` // aborted, account-disabled, credentials-expired, encryption-required, incorrect-encoding, invalid-authzid, invalid-mechanism, malformed-request, mechanism-too-weak, not-authorized, temporary-auth-failure
 	Text    *xmppText `xml:"text"`
 }
 

@@ -1,0 +1,942 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"func",
+				"func (*Client)	func (...) {...} ʂ"
+			],
+			[
+				"user",
+				"userController"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "types.go",
+			"settings":
+			{
+				"buffer_size": 6343,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client.go",
+			"settings":
+			{
+				"buffer_size": 460,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Jeroen/Go/src/main.go",
+			"settings":
+			{
+				"buffer_size": 224,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"synxml",
+				"Set Syntax: XML"
+			],
+			[
+				"synjso",
+				"Set Syntax: JSON"
+			],
+			[
+				"syntext",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"oricre",
+				"Origami: Zoom Current Pane"
+			],
+			[
+				"oriclo",
+				"Origami: Clone File to Pane on the Left"
+			],
+			[
+				"synjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"listp",
+				"Package Control: List Packages"
+			],
+			[
+				"orz",
+				"Origami: Unzoom Current Pane"
+			],
+			[
+				"clonle",
+				"Origami: Clone File to Pane on the Left"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"match",
+				"BracketHighlighter: Match Brackets (ignore threshold)"
+			],
+			[
+				"hex",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"hex ",
+				"Hex Viewer: Show Hex Edit Panel"
+			],
+			[
+				"synj",
+				"Set Syntax: JSON"
+			],
+			[
+				"pref",
+				"Preferences: Settings - User"
+			],
+			[
+				"synpl",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"gosu",
+				"GoSublime: Default Settings"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"rempa",
+				"Package Control: Remove Package"
+			],
+			[
+				"synx",
+				"Set Syntax: XML"
+			],
+			[
+				"sync",
+				"Set Syntax: C#"
+			],
+			[
+				"replpy",
+				"SublimeREPL: Python"
+			],
+			[
+				"replpu",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"build",
+				"Build: Build"
+			]
+		],
+		"width": 450.0
+	},
+	"console":
+	{
+		"height": 291.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Program Files/nssm-2.18/README.txt",
+		"/C/Users/Jeroen/Applications/DS4 SCP/ScpDriver.log",
+		"/C/Users/Jeroen/Applications/DS4 SCP/ScpService.InstallState",
+		"/C/Users/Jeroen/Applications/DS4 SCP/ScpService.InstallLog",
+		"/C/Users/Jeroen/Downloads/DS4 SCP/ScpService.InstallLog",
+		"/C/Users/Jeroen/Downloads/DS4Tool/ScpControl.xml",
+		"/C/Users/Jeroen/Downloads/DS4Tool/Readme.txt",
+		"/C/Users/Jeroen/AppData/Local/Temp/Temp1_DS4Tool.zip/Readme.txt",
+		"/C/Users/Jeroen/Go/src/github.com/jcranendonk/goxep/goxep.sublime-project",
+		"/C/Users/Jeroen/Go/src/github.com/jcranendonk/goxep/main.go",
+		"/C/GOG Games/7THGUEST/GROOVIE.INI",
+		"/C/GOG Games/7THGUEST/ULTRAMID.INI",
+		"/C/GOG Games/7THGUEST/VESA/READ.ME",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/Packages/User/Plain text.sublime-settings",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Jeroen/Documents/Shiner/VideoSettings.xml",
+		"/C/GOG Games/Harvester/dosbox.conf",
+		"/C/Users/Jeroen/Go/src/github.com/jcranendonk/goxep/types.go",
+		"/C/Users/Jeroen/Go/src/github.com/jcranendonk/goxep/client.go",
+		"/C/Users/Jeroen/Downloads/T7G11H/Notes.txt",
+		"/C/GOG Games/11THHOUR/dosbox.conf",
+		"/C/GOG Games/7THGUEST/dosbox.conf",
+		"/C/Users/Jeroen/AppData/Local/Temp/Temp1_11h242.zip/UPDATE.TXT",
+		"/C/Users/Jeroen/AppData/Local/Temp/Temp1_t7gwinnv.zip/readme.txt",
+		"/C/Users/Jeroen/Downloads/T7G11H/1 - T7G/ZIP/INSTALL.BAT",
+		"/C/GOG Games/7THGUEST/T7G130.TXT",
+		"/C/Users/Jeroen/AppData/Local/Temp/Temp1_t7g_130.zip/T7G-FAQ.TXT",
+		"/C/Users/Jeroen/Downloads/T7G11H/T7G11H.txt",
+		"/G/INSTALL.BAT",
+		"/C/Users/Jeroen/AppData/Local/Temp/Temp1_t7gwin.zip/readme.txt",
+		"/C/Users/Jeroen/AppData/Local/Temp/Temp1_tbytecur.zip/readme.txt",
+		"/C/Go/src/pkg/net/dial.go",
+		"/C/Users/Jeroen/Dev/misc/REST-Examples/todos.json",
+		"/C/Users/Jeroen/Dev/misc/REST-Examples/RPC-Enlightenment/server.js",
+		"/C/Users/Jeroen/Dev/misc/REST-Examples/package.json",
+		"/C/Users/Jeroen/Dev/misc/REST-Examples/.jshintrc",
+		"/C/Users/Jeroen/Dev/misc/REST-Examples/RPC-Enlightenment/todos.json",
+		"/C/Harvester/dosbox.conf",
+		"/C/Users/Jeroen/Applications/DOSBOX/dosbox.conf",
+		"/C/Program Files (x86)/GOG.com/Phantasmagoria 2/dosboxPHANT2.conf",
+		"/C/Users/Jeroen/Applications/DOSBOX/dosbox_README.txt",
+		"/C/Users/Jeroen/Downloads/Harvester/RAIN MEMO.nfo",
+		"/C/Users/Jeroen/Applications/DOSBOX/zmbv/README.txt",
+		"/C/Users/Jeroen/Documents/numlock off.reg",
+		"/C/Users/Jeroen/Google Drive/Resume/portfolio & resume changes.txt",
+		"/C/Users/Jeroen/Dev/misc/REST-Examples/BasicREST/server.js",
+		"/C/Users/Jeroen/Dev/misc/REST-Examples/RPC-Enlightenment/package.json",
+		"/C/Users/Jeroen/Dev/misc/REST-Examples/BasicREST/todos.json",
+		"/C/Users/Jeroen/Downloads/unlock-all-v120/ruby.txt",
+		"/C/Users/Jeroen/Downloads/unlock-all-v120/readme.txt",
+		"/C/Users/Jeroen/Downloads/VMware Workstation 10.0.1 Build 1379776/keys.txt",
+		"/C/Users/Jeroen/Downloads/VMware Workstation 10.0.1 Build 1379776/VMware10.0.1-1379776.txt",
+		"/C/Users/Jeroen/Dev/dispatchR/package.json",
+		"/C/Users/Jeroen/Dev/misc/REST-Examples/README.md",
+		"/C/Users/Jeroen/Documents/Anki/User 1/backups/backup-11.apkg",
+		"/C/Users/Jeroen/Documents/Anki/User 1/deleted.txt",
+		"/C/Users/Jeroen/Documents/Anki/User 1/collection.log",
+		"/C/Users/Jeroen/Documents/Anki/User 1/collection.anki2",
+		"/C/Users/Jeroen/AppData/Local/Temp/ac78597810.txt",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/Packages/GoSublime/something_borrowed/__init__.py",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/Packages/GoSublime/something_borrowed/diff_match_patch/__init__.py",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/Packages/GoSublime/something_borrowed/diff_match_patch/python3/diff_match_patch.py",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/Packages/User/bh_core.sublime-settings",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/Packages/User/GoSublime.sublime-settings",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/Packages/FuzzyFileNav/.gitignore",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/.gitignore",
+		"/C/Users/Jeroen/Downloads/office product key.txt",
+		"/C/Users/Jeroen/Desktop/SyncInstall.log",
+		"/C/Users/Jeroen/AppData/Local/Temp/ac19639848.txt",
+		"/C/Users/Jeroen/Documents/GALog.txt",
+		"/C/Users/Jeroen/Downloads/openvpn/ca.crt",
+		"/C/Program Files/OpenVPN/config/README.txt",
+		"/C/Users/Jeroen/Dev/Osteoware PoC/src/OsteowarePoC/UI/UI.csproj",
+		"/C/Users/Jeroen/Applications/Kitty/Sessions/Home%20proxy",
+		"/C/Users/Jeroen/Google Drive/NGT Doxy software changes.gdoc",
+		"/C/Users/Jeroen/Dev/doxy-framework/Doxy.txt",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/Packages/Origami/.gitignore",
+		"/C/Users/Jeroen/Dev/dispatchR/README.md",
+		"/C/Users/Jeroen/Documents/money.txt",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/Packages/FuzzyFileNav/fuzzy_file_nav.sublime-settings",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/Packages/User/fuzzy_file_nav.sublime-settings",
+		"/C/Users/Jeroen/Dev/Osteoware PoC/README.md",
+		"/C/Users/Jeroen/Dev/Osteoware PoC/src/OsteowarePoC/UI/ChunkedList.cs",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/Packages/FuzzyFileNav/Default (Windows).sublime-keymap",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/Packages/FuzzyFileNav/README.md",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/models/user.js",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/client/demoResponder.html",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/server.js",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/client/js/client.js",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/client/demoCreate.html",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/controllers/eventCtrl.js",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/models/event.js",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/client/popoutLeft.html",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/client/popoutRight.html",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/client/incidentCard.html",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/models/activity.js",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/controllers/userCtrl.js",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/controllers/activityCtrl.js",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/controllers/authCtrl.js",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/models/userProfile.js",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/models/team.js",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/models/mongoStore.js",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/controllers/index.js",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/controllers/profileCtrl.js",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/controllers/teamCtrl.js",
+		"/C/Users/Jeroen/Dev/misc/ems-swbozeman/README.md",
+		"/C/Users/Jeroen/Downloads/key.pub",
+		"/C/Users/Jeroen/Downloads/key.prv",
+		"/C/Users/Jeroen/Downloads/key.ppk",
+		"/C/Users/Jeroen/Applications/Kitty/ssh.ppk",
+		"/C/Users/Jeroen/Dev/doxy-framework/Doxy Framework/Doxy.Acquisition/Doxy.Acquisition.csproj",
+		"/C/Users/Public/Documents/Log Files 10-8-13 to 10-15-13/New Gate Inspection.debug.2013-10-08-0.log",
+		"//newgate/Engineering/Software development/Catpro PC build notes for SW install.txt",
+		"/C/Users/Public/Documents/Log Files 10-8-13 to 10-15-13/Part_Runs.py",
+		"/C/Users/Jeroen/Downloads/GRACoL2006_Coated1v2.icc",
+		"/C/Users/Jeroen/Downloads/GRACoL2006_Coated1v2.icc.hex",
+		"/C/Users/Jeroen/Downloads/GRACoL2006_Coated1v2x.icc",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/Packages/User/hex_viewer.sublime-settings",
+		"/C/Users/Jeroen/AppData/Roaming/Sublime Text 2/Packages/HexViewer/hex_viewer.sublime-settings",
+		"/C/Users/Jeroen/Documents/Anki/README.txt",
+		"/C/Users/Jeroen/.config/configstore/insight-yo.yml",
+		"/C/Users/Jeroen/.config/configstore/update-notifier-generator-mocha.yml",
+		"/C/Users/Jeroen/.config/configstore/update-notifier-bower.yml",
+		"/C/Users/Jeroen/.config/configstore/update-notifier-generator-webapp.yml"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"\nC:\\Users\\Jeroen\\AppData\\Roaming\\Sublime Text 2\\Packages\\C#, *.tmLanguage",
+			"\nC:\\Users\\Jeroen\\AppData\\Roaming\\Sublime Text 2\\Packages\\C#, *",
+			"\nC:\\Users\\Jeroen\\AppData\\Roaming\\Sublime Text 2\\Packages\\C#, *.tm*",
+			"\nC:\\Users\\Jeroen\\AppData\\Roaming\\Sublime Text 2\\Packages\\C#, *.*",
+			"\nC:\\Users\\Jeroen\\AppData\\Roaming\\Sublime Text 2\\Packages\\C#"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";",
+			"indent",
+			"tab",
+			"\n",
+			"getById",
+			"-x64",
+			"home",
+			"5f",
+			"2e",
+			".",
+			"loc",
+			";",
+			"compareOrderId",
+			"\\",
+			"\\\\",
+			"symbol list:",
+			"tab",
+			" "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"06_Coated1v2",
+			"\\n",
+			"\\"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "types.go",
+					"settings":
+					{
+						"buffer_size": 6343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client.go",
+					"settings":
+					{
+						"buffer_size": 460,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								460,
+								460
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 38.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Jeroen/Go/src/main.go",
+					"settings":
+					{
+						"buffer_size": 224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								224,
+								224
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o://C:\\Users\\Jeroen\\Go\\src\\github.com\\jcranendonk\\goxep":
+	{
+		"height": 219.0
+	},
+	"output.GoSublime-main-output":
+	{
+		"height": 92.0
+	},
+	"output.GsDoc-output-output":
+	{
+		"height": 194.0
+	},
+	"output.exec":
+	{
+		"height": 455.0
+	},
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Jeroen/Dev/misc/REST-Examples/REST-examples.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 292.0,
+	"status_bar_visible": true
+}
