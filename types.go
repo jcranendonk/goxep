@@ -39,6 +39,14 @@ type xmppError struct {
 	Type string    `xml:"type,attr"` // auth, cancel, continue, modify, wait
 }
 
+type xmppStanza struct {
+	From string `xml:"from,attr,omitempty"`
+	Id   string `xml:"id,attr,omitempty"`
+	To   string `xml:"to,attr,omitempty"`
+	Type string `xml:"type,attr,omitempty"`
+	Lang string `xml:"xml:lang,attr,omitempty"`
+}
+
 // RFC 6120  A.1  Stream namespace
 
 type streamFeatures struct {
@@ -112,79 +120,55 @@ type saslFailure struct {
 // RFC 6120  A.5  Client namespace
 
 type clientMessage struct {
-	XMLName xml.Name     `xml:"jabber:client message"`
-	Subject []xmppText   `xml:"subject"`
-	Body    []xmppText   `xml:"body"`
-	Thread  []xmppThread `xml:"thread"`
-	Error   *xmppError   `xml:"error"`
-	From    string       `xml:"from,attr,omitempty"`
-	Id      string       `xml:"id,attr,omitempty"`
-	To      string       `xml:"to,attr,omitempty"`
-	Type    string       `xml:"type,attr,omitempty"` // chat, error, groupchat, headline, normal
-	Lang    string       `xml:"xml:lang,attr,omitempty"`
+	XMLName    xml.Name     `xml:"jabber:client message"`
+	Subject    []xmppText   `xml:"subject"`
+	Body       []xmppText   `xml:"body"`
+	Thread     []xmppThread `xml:"thread"`
+	Error      *xmppError   `xml:"error"`
+	xmppStanza              // Type: chat, error, groupchat, headline, normal
 }
 
 type clientPresence struct {
-	XMLName  xml.Name   `xml:"jabber:client presence"`
-	Show     []string   `xml:"show"` // away, chat, dnd, xa
-	Status   []xmppText `xml:"status"`
-	Priority []byte     `xml:"priority"`
-	Error    *xmppError `xml:"error"`
-	From     string     `xml:"from,attr,omitempty"`
-	Id       string     `xml:"id,attr,omitempty"`
-	To       string     `xml:"to,attr,omitempty"`
-	Type     string     `xml:"type,attr,omitempty"` // error, probe, subscribe, subscribed, unavailable, unsubscribe, unsubscribed
-	Lang     string     `xml:"xml:lang,attr,omitempty"`
+	XMLName    xml.Name   `xml:"jabber:client presence"`
+	Show       []string   `xml:"show"` // away, chat, dnd, xa
+	Status     []xmppText `xml:"status"`
+	Priority   []byte     `xml:"priority"`
+	Error      *xmppError `xml:"error"`
+	xmppStanza            // Type: error, probe, subscribe, subscribed, unavailable, unsubscribe, unsubscribed
 }
 
 type clientIQ struct {
-	XMLName xml.Name   `xml:"jabber:client iq"`
-	IQ      string     `xml:",innerxml"`
-	Error   *xmppError `xml:"error"`
-	From    string     `xml:"from,attr,omitempty"`
-	Id      string     `xml:"id,attr"`
-	To      string     `xml:"to,attr,omitempty"`
-	Type    string     `xml:"type,attr"` // error, get, result, set
-	Lang    string     `xml:"xml:lang,attr,omitempty"`
+	XMLName    xml.Name   `xml:"jabber:client iq"`
+	IQ         string     `xml:",innerxml"`
+	Error      *xmppError `xml:"error"`
+	xmppStanza            // Type: error, get, result, set
 }
 
 // RFC 6120  A.6  Server namespace
 
 type serverMessage struct {
-	XMLName xml.Name     `xml:"jabber:server message"`
-	Subject []xmppText   `xml:"subject"`
-	Body    []xmppText   `xml:"body"`
-	Thread  []xmppThread `xml:"thread"`
-	Error   *xmppError   `xml:"error"`
-	From    string       `xml:"from,attr"`
-	Id      string       `xml:"id,attr,omitempty"`
-	To      string       `xml:"to,attr"`
-	Type    string       `xml:"type,attr,omitempty"` // chat, error, groupchat, headline, normal
-	Lang    string       `xml:"xml:lang,attr,omitempty"`
+	XMLName    xml.Name     `xml:"jabber:server message"`
+	Subject    []xmppText   `xml:"subject"`
+	Body       []xmppText   `xml:"body"`
+	Thread     []xmppThread `xml:"thread"`
+	Error      *xmppError   `xml:"error"`
+	xmppStanza              // Type: chat, error, groupchat, headline, normal
 }
 
 type serverPresence struct {
-	XMLName  xml.Name   `xml:"jabber:server presence"`
-	Show     []string   `xml:"show"` // away, chat, dnd, xa
-	Status   []xmppText `xml:"status"`
-	Priority []byte     `xml:"priority"`
-	Error    *xmppError `xml:"error"`
-	From     string     `xml:"from,attr"`
-	Id       string     `xml:"id,attr,omitempty"`
-	To       string     `xml:"to,attr"`
-	Type     string     `xml:"type,attr,omitempty"` // error, probe, subscribe, subscribed, unavailable, unsubscribe, unsubscribed
-	Lang     string     `xml:"xml:lang,attr,omitempty"`
+	XMLName    xml.Name   `xml:"jabber:server presence"`
+	Show       []string   `xml:"show"` // away, chat, dnd, xa
+	Status     []xmppText `xml:"status"`
+	Priority   []byte     `xml:"priority"`
+	Error      *xmppError `xml:"error"`
+	xmppStanza            // Type: error, probe, subscribe, subscribed, unavailable, unsubscribe, unsubscribed
 }
 
 type serverIQ struct {
-	XMLName xml.Name   `xml:"jabber:server iq"`
-	IQ      string     `xml:",innerxml"`
-	Error   *xmppError `xml:"error"`
-	From    string     `xml:"from,attr"`
-	Id      string     `xml:"id,attr"`
-	To      string     `xml:"to,attr"`
-	Type    string     `xml:"type,attr"` // error, get, result, set
-	Lang    string     `xml:"xml:lang,attr,omitempty"`
+	XMLName    xml.Name   `xml:"jabber:server iq"`
+	IQ         string     `xml:",innerxml"`
+	Error      *xmppError `xml:"error"`
+	xmppStanza            // Type: error, get, result, set
 }
 
 // RFC 6120  A.7  Resource binding namespace
